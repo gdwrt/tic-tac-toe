@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jogodavelha.controller.TelaJogoController">
+   <children>
+      <ImageView fitHeight="553.0" fitWidth="553.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/grid.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btn1" focusTraversable="false" layoutY="1.0" onAction="#btn1OnAction" prefHeight="180.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao1" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn2" focusTraversable="false" layoutX="184.0" layoutY="1.0" onAction="#btn2OnAction" prefHeight="180.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao2" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn3" focusTraversable="false" layoutX="369.0" layoutY="1.0" onAction="#btn3OnAction" prefHeight="180.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao3" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn4" focusTraversable="false" layoutY="181.0" onAction="#btn4OnAction" prefHeight="187.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao4" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn5" focusTraversable="false" layoutX="184.0" layoutY="181.0" onAction="#btn5OnAction" prefHeight="187.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao5" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn6" focusTraversable="false" layoutX="369.0" layoutY="181.0" onAction="#btn6OnAction" prefHeight="187.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao6" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn7" focusTraversable="false" layoutY="369.0" onAction="#btn7OnAction" prefHeight="180.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao7" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn8" focusTraversable="false" layoutX="184.0" layoutY="365.0" onAction="#btn8OnAction" prefHeight="187.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao8" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn9" focusTraversable="false" layoutX="369.0" layoutY="369.0" onAction="#btn9OnAction" prefHeight="180.0" prefWidth="185.0" ripplerFill="#00000006" text=" ">
+         <graphic>
+            <ImageView fx:id="imgBotao9" fitHeight="96.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnX" layoutX="623.0" layoutY="142.0" onAction="#btnXonAction" prefHeight="57.0" prefWidth="107.0" style="-fx-background-color: #333;" text="X" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnO" layoutX="623.0" layoutY="226.0" onAction="#btnOonAction" prefHeight="57.0" prefWidth="107.0" style="-fx-background-color: #333;" text="O" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="613.0" layoutY="91.0" prefHeight="17.0" prefWidth="147.0" text="Selecione a opção :">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
