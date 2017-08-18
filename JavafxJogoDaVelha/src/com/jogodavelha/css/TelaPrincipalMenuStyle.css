@@ -1,10 +1,6 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
 
 
-.buttom{
-	
-	 -fx-background-image: url(/com/jogodavelha/img/fundo.jpg);
-	 
-	
-	
+.buttom{	
+	 -fx-background-image: url(/com/jogodavelha/img/fundo.jpg);	
 }
